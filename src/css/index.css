@@ -1,0 +1,105 @@
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 30px;
+  margin-bottom: 40px; }
+
+.list-container {
+  border-left: 1.5px solid #222;
+  border-bottom: 1.5px solid #222;
+  border-right: 1.5px solid #222; }
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 7px 0 7px;
+  background-color: #105f00;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 75px; }
+  .header h1 {
+    font-family: "Baloo Tamma", "Trebuchet MS";
+    color: #1b1b1b;
+    font-weight: none;
+    margin: 0;
+    align-self: center; }
+  .header img.logo {
+    width: 70px;
+    height: 45px;
+    border-radius: 100%;
+    margin-right: 7px; }
+  .header a {
+    align-self: center; }
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0; }
+  ul li {
+    list-style: none;
+    text-align: center; }
+    ul li:nth-child(odd) {
+      background-color: #ebebeb; }
+    ul li:nth-child(even) {
+      background-color: #f5f5f5; }
+  ul li:nth-child(-n+2) {
+    text-align: left;
+    padding-left: 10px; }
+  ul li:nth-child(1) {
+    flex: 0.4;
+    border-bottom: 2.5px solid #d7d7d7;
+    border-right: 2.5px solid #d7d7d7; }
+  ul li:nth-child(2) {
+    flex: 3;
+    border-bottom: 2.5px solid #d7d7d7;
+    border-right: 2.5px solid #d7d7d7;
+    display: flex;
+    justify-content: flex-start; }
+  ul li:nth-child(3) {
+    flex: 2;
+    border-bottom: 2.5px solid #d7d7d7;
+    border-right: 2.5px solid #d7d7d7; }
+  ul li:nth-child(4) {
+    flex: 2;
+    border-bottom: 2.5px solid #d7d7d7; }
+  ul.list-title {
+    font-family: "Baloo Tamma", "Trebuchet MS"; }
+    ul.list-title li {
+      color: #373737;
+      font-size: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+      ul.list-title li:nth-child(3):hover, ul.list-title li:nth-child(4):hover {
+        cursor: pointer;
+        color: #105f00; }
+      ul.list-title li:nth-child(3):active, ul.list-title li:nth-child(4):active {
+        color: #373737; }
+  ul.campers li {
+    font-family: "Mallanna", "Tahoma"; }
+    ul.campers li:nth-child(odd), ul.campers li:nth-child(0n+4) {
+      padding-top: 10px;
+      padding-bottom: 10px; }
+    ul.campers li img.dummy-image {
+      width: 45px;
+      height: 45px;
+      margin: 7px 4px 5px 0;
+      border-radius: 3px;
+      border: 1px solid #dcdcdc; }
+    ul.campers li img.dummy-image:hover {
+      cursor: pointer; }
+    ul.campers li p {
+      margin: 6px 0 0 0; }
+    ul.campers li a {
+      text-decoration: none;
+      align-self: center;
+      color: #373737; }
+    ul.campers li a:hover {
+      cursor: pointer;
+      color: #105f00; }
+    ul.campers li a:active {
+      color: #373737; }
+
+/*# sourceMappingURL=index.css.map */
